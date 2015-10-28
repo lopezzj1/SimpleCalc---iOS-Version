@@ -65,6 +65,12 @@ class ViewController: UIViewController {
         answerOutput.text = "0"
     }
     
+    @IBAction func divide(divideButton: UIButton) {
+        numsArray.append(answerOutput!.text!)
+        operation = "÷"
+        answerOutput.text = "0"
+    }
+    
     //function that stores the current operation
     //and stores the current value into an array
     @IBAction func mod(subButton: UIButton) {
@@ -125,7 +131,6 @@ class ViewController: UIViewController {
     //returns the value for each operation
     @IBAction func equals (obj: AnyObject) {
         
-        
         //if the values are Int values
         if isDecimal == false {
             
@@ -167,6 +172,20 @@ class ViewController: UIViewController {
                 
                 answerOutput.text = "\(answer)"
                 //print(answer)
+                
+            } else if operation == "÷" {
+
+                numsArray.append(answerOutput!.text!)
+                answer = Int(numsArray[0])!
+                
+                for var index = 1; index < numsArray.count; index++ {
+                    let newValue = Int(numsArray[index])
+                    answer /= newValue!
+                }
+                
+                answerOutput.text = "\(answer)"
+                //print(answer)
+
                 
             } else if operation == "%" {
                 
@@ -232,6 +251,19 @@ class ViewController: UIViewController {
                 
                 answerOutput.text = "\(answer)"
                 print(answer)
+                
+            }  else if operation == "÷" {
+                numsArray.append(answerOutput!.text!)
+                answer = Double(numsArray[0])!
+                
+                for var index = 1; index < numsArray.count; index++ {
+                    let newValue = Double(numsArray[index])
+                    answer /= newValue!
+                }
+                
+                answerOutput.text = "\(answer)"
+                //print(answer)
+                
                 
             } else if operation == "%" {
                 

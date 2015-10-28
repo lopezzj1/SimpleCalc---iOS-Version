@@ -255,12 +255,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wH-FB-yb8">
-                                <rect key="frame" x="22" y="415" width="52" height="38"/>
+                                <rect key="frame" x="22" y="415" width="44" height="38"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.30113574999999998" green="0.65053452950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <state key="normal" title="avg">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="average:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ig9-mP-Svo"/>
@@ -270,7 +270,7 @@
                                 <rect key="frame" x="233" y="415" width="68" height="38"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.30113574999999998" green="0.65053452950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <state key="normal" title="clear">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -279,10 +279,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paw-fc-QOw">
-                                <rect key="frame" x="157" y="415" width="68" height="39"/>
+                                <rect key="frame" x="117" y="415" width="67" height="38"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.30113574999999998" green="0.65053452950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <state key="normal" title="count">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -291,10 +291,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltE-tv-qsa">
-                                <rect key="frame" x="250" y="342" width="51" height="68"/>
+                                <rect key="frame" x="184" y="415" width="51" height="38"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.30113575000421045" green="0.65053452949509327" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <color key="tintColor" red="0.89747627620000003" green="0.89747627620000003" blue="0.89747627620000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="mod">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -304,15 +304,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7j-Zb-t51">
-                                <rect key="frame" x="86" y="415" width="63" height="38"/>
+                                <rect key="frame" x="66" y="415" width="52" height="38"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.30113574999999998" green="0.65053452950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <state key="normal" title="fact">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="factorial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wvC-ng-BuA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSN-9a-SBv">
+                                <rect key="frame" x="251" y="342" width="51" height="68"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30113574999999998" green="0.65053452950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="41"/>
+                                <color key="tintColor" red="0.89747627620000003" green="0.89747627620000003" blue="0.89747627620000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="÷">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0k3-lw-mfj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -326,7 +339,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="447" y="168"/>
+            <point key="canvasLocation" x="446.5" y="167.5"/>
         </scene>
     </scenes>
 </document>
